@@ -5,7 +5,6 @@ RUN mkdir /app
 WORKDIR /app
 
 ADD external-scripts.json .
-ADD hubot-scripts.json .
 ADD package.json .
 ADD package-lock.json .
 ADD scripts .
