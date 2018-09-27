@@ -8,3 +8,5 @@ hubot:
     MATTERMOST_ENDPOINT: /hubot/incoming
     MATTERMOST_ICON_URL: your_icon_url
     MATTERMOST_HUBOT_USERNAME: your_hubot_username
+  volumes:
+    - ./scripts:/app/scripts
