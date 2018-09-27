@@ -1,0 +1,12 @@
+hubot:
+  build: .
+  ports:
+    - "8080:8080"
+  environment:
+    MATTERMOST_TOKEN: your_token
+    MATTERMOST_INCOME_URL: your_income_url
+    MATTERMOST_ENDPOINT: /hubot/incoming
+    MATTERMOST_ICON_URL: your_icon_url
+    MATTERMOST_HUBOT_USERNAME: your_hubot_username
+  volumes:
+    - ./scripts:/app/scripts
